@@ -1,0 +1,53 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.ui-container {
+  margin-left: 35%;
+  margin-right: 35%;
+  height: 85%;
+  padding: 0.2%;
+  background-color: rgba(0, 0, 0, 0.7960784314);
+  z-index: -1;
+}
+.ui-container .caltitle {
+  background-color: rgba(0, 0, 0, 0.6156862745);
+  height: 5%;
+  color: white;
+}
+.ui-container .caltitle h3 {
+  margin-top: 0.5%;
+  margin-left: 3%;
+  font-size: 0.9em;
+  color: rgba(245, 245, 245, 0.699);
+}
+.ui-container .display {
+  position: relative;
+  background-color: rgba(8, 7, 7, 0.342);
+  height: 45%;
+  color: white;
+  font-size: 3rem;
+}
+.ui-container .display .spn2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.ui-container .cal_button {
+  width: 100%;
+  height: 50%;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template: repeat(4, auto)/repeat(4, auto);
+}
+.ui-container button {
+  color: white;
+  background-color: rgba(6, 0, 0, 0.337254902);
+  width: 100%;
+  height: 100%;
+}
+.ui-container button:hover {
+  background-color: black;
+}/*# sourceMappingURL=index.css.map */
